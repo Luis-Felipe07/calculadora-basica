@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.calculadora {
+    background-color: #4A90E2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.pantalla {
+    width: 90%;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: right;
+    margin-bottom: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilos de los botones */
+.btn-gris {
+    background-color: #D3D3D3;
+}
+
+.btn-naranja {
+    background-color: #FFA500;
+    color: white;
+}
+
+.btn-rojo {
+    background-color: #FF0000;
+    color: white;
+}
+
+.btn-amarillo {
+    background-color: #FFD700;
+}
